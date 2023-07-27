@@ -6,10 +6,29 @@
     --title-color: #222;
     --name-color: #BBB;
     --hover-color: #8e0404;
-
 }
 body{
     width: 1000px;
     padding: 0 29px;
     font-family: 'Montserrat', sans-serif;
+}
+.form{
+    background-color: var(--background-dark);
+}
+.form-title{
+    color: var(--background-light);
+    text-transform: uppercase;
+}
+.form-button{
+    background-color: var(--logo-color);
+    color: var(--background-light);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    padding: 28px 33px;
 }
