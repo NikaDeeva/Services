@@ -16,6 +16,7 @@ body{
 .header{
     margin-bottom: 92px;
     margin-top: 44px;
+    display: flex;
 }
 .logo{
     color: var(--logo-color);
@@ -27,6 +28,10 @@ font-weight: 700;
 line-height: 41px; 
 letter-spacing: 1.3px;
 }
+.header-list{
+    display: flex;
+    margin-left: 285px;
+}
 .header-link{
     color: var(--logo-color);
     text-align: center;
@@ -36,10 +41,18 @@ font-style: normal;
 font-weight: 600;
 line-height: 41px; 
 text-transform: uppercase;
+padding: 25px;
 }
+.info-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .info-item{
     width: 274px;
     text-align: center;
+    margin-right: 30px;
 }
 
 .info-title{
@@ -89,6 +102,23 @@ line-height: normal;
 letter-spacing: -1px;
 text-transform: uppercase;
 text-align: center;
+padding-bottom: 116px;
+}
+input{
+    width: 457px;
+height: 53px;
+color: #BBB;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+padding-top: 12px;
+padding-bottom: 21px;
+padding-left: 20px;
+padding-right: 310px;
 }
 
 .form-button{
@@ -103,4 +133,7 @@ text-align: center;
     text-transform: uppercase;
     border: none;
     padding: 28px 33px;
+    margin-top: 29px;
+   display: flex;
+   
 }
