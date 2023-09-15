@@ -1,6 +1,5 @@
 :root{
     --background-light: #fff;
-    --background-dark: #000;
     --logo-color: #FED136;
     --text-color: #777;
     --title-color: #222;
@@ -11,14 +10,87 @@ body{
     width: 1000px;
     padding: 0 29px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.header{
+    margin-bottom: 92px;
+    margin-top: 44px;
+}
+.logo{
+    color: var(--logo-color);
+    text-align: center;
+font-family: 'Bilbo Swash Caps';
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; 
+letter-spacing: 1.3px;
+}
+.header-link{
+    color: var(--logo-color);
+    text-align: center;
+font-family: 'Montserrat';
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 41px; 
+text-transform: uppercase;
+}
+.info-item{
+    width: 274px;
+    text-align: center;
+}
+
+.info-title{
+    color: var(--title-color);
+    text-align: center;
+font-family: 'Montserrat';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: -1px;
+text-transform: uppercase;
+margin-bottom: 88px;
+}
+.list-title{
+    color: var(--title-color);
+    text-align: center;
+font-family: 'Montserrat';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 75px; 
+letter-spacing: -0.45px;
+
+}
+.info-text{
+    color: var(--text-color);
+    text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.35px;
+margin-bottom: 119px;
 }
 .form{
-    background-color: var(--background-dark);
+    background-color: var(--title-color);
+    padding-top: 92px;
+    padding-bottom: 115px;
 }
 .form-title{
     color: var(--background-light);
-    text-transform: uppercase;
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1px;
+text-transform: uppercase;
+text-align: center;
 }
+
 .form-button{
     background-color: var(--logo-color);
     color: var(--background-light);
